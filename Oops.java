@@ -30,6 +30,7 @@ public class Oops {
 
        obj1.Setters(3,4);
        System.out.println("Value of a "+obj1.getterVariablea()+" value of b "+obj1.getterVariableb());
+       new Oops().getterVariableb();//anonymous object creatation. Anonymous object is object which do not have any reference variable
 
 
     }
