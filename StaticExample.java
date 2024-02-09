@@ -11,13 +11,14 @@ public class StaticExample {
     public static void Staticvar(String fristname, String lastname,String school)
     {
         StaticExample obj3 = new StaticExample();
-        //In static method we can't initialize non static varible dircetly we need to crerat einstance of the class and use it to initialize
+        //In static method we can't initialize non static varible dircetly we need to crerate instance of the class and use it to initialize
         //we can't use this keyword to initialize the static varibale because it is assocaite with class level no the obj level.
         //if we maniplaute static variable. it will affect at the class level.
         //we can use static block to initialize the static varibale
-        //we can't non static method in static method without help obj.
-        //we can call static method directly in styatic nethod
+        //we can't call non static method in static method without help obj.
+        //we can call static method directly in static nethod
     }
+
 
 
     public static void main(String[] args )

@@ -33,7 +33,7 @@ public class ThisExample {
     {
          ThisExample obj = new ThisExample(1,2);
          obj.Sub();
-         ThisExample obj2 = new ThisExample(1,2,3)
+         ThisExample obj2 = new ThisExample(1,2,3);
     }
 
 }
